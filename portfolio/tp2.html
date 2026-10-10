@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="tp2.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio"> my Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Moemen ferchichi</h1>
+      <h3>And I'm a <span class="text-animate">licence student</span></h3>
+      <p>I build clean, simple, and responsive websites using HTML, CSS, and JavaScript.</p>
+      
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+
+      <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+      <img src="moeemen.jpeg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About <span>Me</span></h2>
+    <p>I am a computer science student passionate about web development and building interactive user interfaces.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>My <span>Services</span></h2>
+    <p>Web Development, Responsive Design, and UI/UX Layouts.</p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2> <span>bio</span></h2>
+    <p>Trying to be the best at whatever whenever</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact <span>Me!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+
+      <div class="textarea-box">
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
